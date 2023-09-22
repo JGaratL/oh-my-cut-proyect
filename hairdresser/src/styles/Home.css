@@ -1,0 +1,81 @@
+
+.home {
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén en una columna */
+    align-items: flex-end; /* Alinea los elementos a la derecha */
+    justify-content: center; /* Centra verticalmente los elementos */
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.logoTitle {
+    align-self: flex-end; /* Alinea el logo a la derecha */
+    height: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    transition: transform 0.3s; /* Agrega una transición suave al transformar */
+
+}
+
+.logoTitle:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
+}
+
+
+.logo {
+    height: 100px;
+}
+  
+.maintitle {
+    font-size: xx-large;
+    color: #1b1b1b;
+    text-align: right; /* Alinea el texto a la derecha */
+    margin-right: 300px;
+
+
+}
+  
+.cta-button {
+    background-color: #a2a6aa; /* Color de fondo del botón */
+    color: #111111; /* Color del texto del botón */
+    border: none;
+    border-radius: 20px; /* Botón redondeado */
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-self: flex-end; /* Alinea el botón a la derecha */
+    margin-right: 300px;
+    transition: border 0.3s; /* Agrega una transición suave al borde */
+ 
+    /* Estilos cuando el ratón pasa por encima */
+    &:hover {
+        border: 2px solid #000; /* Borde negro al pasar el ratón por encima  */
+    }
+  }
+
+.btn-cita-online {
+    background-color: #a2a6aa;
+    color: #111111;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 300px;
+    transition: border 0.3s;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-cita-online:hover {
+    border: 2px solid #000;
+}
+
+/* body, html {
+    background-image: url('../images/hair.jpg');
+    margin: 0;
+    padding: 0; 
+} */
+

@@ -1,0 +1,113 @@
+.datepicker-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 80px 0px 40px;
+}
+
+
+.service-label,
+.date-label,
+.stylist-label {
+    margin-bottom: 5px;
+}
+
+.service-dropdown,
+.stylist-section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between; /* Espacio entre peluqueros */
+}
+
+.service-select, .date-picker {
+    width: 180px;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.date-picker {
+    padding: 0.5rem;
+    padding-left: 20px;
+    
+}
+
+/* Estilos para los peluqueros */
+.stylist-section {
+    display: flex;
+    gap: 10px;
+}
+
+.stylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylist-img {
+    width: 60px;  /* Puedes ajustar según lo que necesites */
+    height: 60px;
+    border-radius: 50%; /* Imágenes redondeadas */
+    object-fit: cover; /* Asegura que las imágenes se muestren correctamente */
+}
+
+
+
+.service-picker {
+    position: relative;
+    appearance: none;
+    background: white;
+}
+
+.service-picker::after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo para el desplegable de selección de hora */
+.time-select {
+    width: 180px;
+    padding-left: 20px;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    appearance: none; /* Para asegurarse de que no haya estilos del navegador por defecto */
+    background-color: white; /* Color de fondo del desplegable */
+}
+
+/* Estilo para el contenedor del desplegable de hora */
+.time-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.selected-stylist {
+    border: 2px solid #8D2B63;
+    border-radius: 50%;
+}
+
+.namePhoto {
+    color: #8D2B63;
+    font-weight: bold;
+    font-size: 14px;
+}
+

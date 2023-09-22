@@ -1,0 +1,97 @@
+.empleo-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: #8D2B63; /* Color morado para el fondo izquierdo */
+    color: #fff; /* Color del texto en blanco */
+    position: relative; /* Para posicionar elementos secundarios de forma absoluta */
+    z-index: 1;
+    height: 1000px;
+}
+.empleo-container::before {
+    content: "";
+    background-image: url('../images/Scissor.png'); /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    transform: rotate(225deg);
+    right: 1000px;
+    width: 50%;
+    height: 50%;
+    opacity: 0.2; /* Ajusta la opacidad según tus preferencias */
+    z-index: -1; /* Para que el pseudo-elemento esté detrás del contenido principal */
+}
+
+.formulario {
+    width: 40%;
+    text-align: left;
+    padding: 30px 185px 0px 180px; /* Separación de la imagen */
+  }
+  
+.formulario h2 {
+    font-size: 32px;
+  }
+  
+  .formulario p {
+    font-size: 16px;
+  }
+  
+  .formulario .file-upload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .formulario .file-label {
+    background-color: #a0a0a0;
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+
+  }
+  
+  .formulario .file-input {
+    display: none;
+  }
+  
+  .formulario .file-label span {
+    font-size: 16px;
+    color: beige;
+  }
+  
+  .formulario .checkbox-label {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .enviar-button {
+    background-color: #333; /* Cambia el color de fondo del botón a casi negro */
+    color: beige; /* Cambia el color del texto del botón a beige */
+    border-radius: 60px; /* Botón redondeado */
+    padding: 1px 30px;
+    margin-top: 16px;
+    height: 29px;
+    font-size: small;
+    cursor: pointer;
+    
+    
+  }
+  
+  .imagen-empleo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: auto; /* o puede intentar con 100% para ver cómo se ve */
+    background-image: url('../images/pelo.jpg');
+    background-size: cover;
+    background-position: right center;
+  }
+/* Estilo para las casillas del formulario */
+.input-box {
+    margin-bottom: 10px; /* Espacio vertical de separación entre las casillas */
+  }
+    

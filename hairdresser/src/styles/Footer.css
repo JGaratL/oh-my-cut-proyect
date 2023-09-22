@@ -1,0 +1,109 @@
+
+footer {
+    background-color: #8D2B63; /* Color de fondo morado */
+    color: #fff; /* Color del texto en blanco */
+  }
+  
+  /* Estilo para la parte superior del footer */
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; /* Espacio interno a los lados */
+  }
+  
+  /* Estilo para las columnas de títulos */
+.title-column {
+    flex: 1; /* Hace que ocupen el mismo espacio */
+    text-align: left; /* Alineación a la derecha */
+    padding-right: 20px; /* Espacio interno a la derecha */
+    padding-left: 182px;
+    font-size: 11px; /* Tamaño de letra reducido */
+    margin-top: 36px;
+
+  }
+  
+.title-column h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+.title-column ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+.title-column ul li {
+    margin-bottom: 8px;
+    font-size: 11px; /* Tamaño de letra reducido */
+
+  }
+  
+.title-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px; /* Tamaño de letra reducido */
+
+  }
+  
+.title-column ul li a:hover {
+    text-decoration: none; /* Subrayado al pasar el ratón */
+
+  }
+  
+  /* Estilo para la columna de contacto */
+.title-column p {
+    margin: 8px 0;
+  }
+  
+  /* Estilo para la columna de redes sociales */
+.social-column {
+    flex: 0.5; /* Ocupa la mitad del espacio */
+    text-align: left; /* Alineación a la derecha */
+    
+  }
+  
+  
+.bottom-footer {
+    background-color: #424242; /* Color de fondo morado */
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center; /* Para centrar verticalmente el contenido de las columnas */
+    height: 0px;
+  }
+  
+  /* Estilo para la columna de derechos de autor */
+.copyright-column {
+    flex: 2; /* Ocupa el doble de espacio que el siguiente */
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  
+  /* Estilo para la columna de usuario de Twitter */
+.unsitiogenial-column {
+    flex: 1; /* Ocupa la mitad del espacio */
+    text-align: right; /* Alineación a la derecha */
+    font-weight: bold;
+    margin-top: 12px;
+
+
+  }
+.logotitle {
+    width: 100px;
+    margin: 40px 50px 20px 40px;
+  }
+
+.logotitle2 {
+    width: 100px;
+    margin-top: 35px;
+}
+
+.redes-sociales {
+    display: flex;
+    color: beige;
+    justify-content: space-between;
+    margin-right: 48px;
+
+}

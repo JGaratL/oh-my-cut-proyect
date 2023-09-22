@@ -1,0 +1,96 @@
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #8D2B63; /* Color morado para el fondo derecho */
+    color: #fff; /* Color del texto en blanco */
+    position: relative;
+    z-index: 1;
+    height: 1000px;
+  }
+  
+  .contacto-container::before {
+    content: "";
+    background-image: url('../images/Scissor.png'); /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    transform: rotate(225deg);
+
+    width: 50%;
+    height: 50%;
+    opacity: 0.2; /* Ajusta la opacidad según tus preferencias */
+    z-index: -1; /* Para que el pseudo-elemento esté detrás del contenido principal */
+}
+
+  .imagen-contacto {
+    width: 60%;
+    /* Puedes personalizar los estilos de la imagen aquí */
+  }
+  
+  .formulario {
+    width: 40%;
+    text-align: left;
+    padding: 30px 180px 0px 185px; /* Separación de la imagen */
+    margin-top: 200px; /* Mover hacia abajo 20px */
+
+  }
+  
+  .formulario h2 {
+    font-size: 32px;
+  }
+  
+  .formulario p {
+    font-size: 16px;
+  }
+  
+  .formulario .file-upload {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .formulario .file-label {
+    background-color: #a0a0a0;
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+    border-color: #FF0000;
+  }
+  
+  .formulario .file-input {
+    display: none;
+  }
+  
+  .formulario .file-label span {
+    font-size: 16px;
+    color: beige;
+  }
+  
+  .formulario .checkbox-label {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .enviar-button {
+    background-color: #333;
+    color: beige;
+    border-radius: 30px;
+    padding: 1px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+  }
+
+#map {
+    width: 1100px; /* Ancho de 300 píxeles */
+    height: 1000px;
+}

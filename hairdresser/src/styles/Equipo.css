@@ -1,0 +1,75 @@
+/* Equipo.css */
+  .equipo-container {
+    display: flex;
+    justify-content: space-between; 
+    height: 900px;
+    margin-top: 100px;
+  }
+  
+  .miembro-equipo {
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    text-align: center;
+    margin: 0px 20px 40px 20px; /* Espacio entre los miembros del equipo */
+  }
+  
+  .miembro-equipo img {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+  }
+  
+  .info-miembro {
+    margin-top: 10px;
+    background-color: #8D2B63; /* Color de fondo morado */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .puesto {
+    font-weight: bold;
+    color: #1d1d1d; 
+  }
+  
+  .nombre {
+    font-size: 24px;
+    color: #f1f1f1; 
+  }
+  
+  .descripcion {
+    font-size: 14px;
+    color: #1d1d1d; /* Color de texto gris para la descripción */
+  }
+
+  .seccion-titulo {
+    text-align: center;
+    margin-bottom: 24px;     /* Espacio entre el título y los miembros del equipo */
+    color: #8D2B63;
+    margin-top: 550px; /* Aumenta el margen superior entre secciones */
+    text-align: center;
+  }
+  
+  
+  .seccion-titulo h2 {
+    font-size: 24px;
+    color: #8D2B63; /* Color del título, ajusta según tu diseño */
+    margin-top: 10px;
+  }
+  
+  #photowoman1, #photowoman2, #photowoman3 {
+    width: 50%; /* Ajusta el porcentaje según el tamaño deseado (50% empequeñece a la mitad) */
+  
+  }
+
+.equipotitle {
+
+    padding-top: 110px;
+
+  }
+
+.linea2 {
+  width: 13%;
+  margin: 1px auto;
+  border: 1px solid #353535; /* Cambia el ancho del borde a 1px y el color a morado */
+  opacity: 1; /* Hace la línea completamente opaca */
+  margin-bottom: 40px;
+  }
+  
